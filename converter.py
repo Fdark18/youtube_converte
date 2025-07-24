@@ -154,8 +154,8 @@ with st.sidebar:
     - Link válido do YouTube
     """)
     
-    st.markdown("### 🛠️ Como instalar FFmpeg")
-    st.code("winget install ffmpeg", language="bash")
+    # st.markdown("### 🛠️ Como instalar FFmpeg")
+    # st.code("winget install ffmpeg", language="bash")
     
     st.markdown("---")
     st.markdown("*Desenvolvido com ❤️ usando Streamlit*")
