@@ -1,0 +1,15 @@
+# YouTube Downloader - Dependências
+# Instalação: pip install -r requirements.txt
+
+# Interface web
+streamlit>=1.28.0
+
+# Download de vídeos do YouTube
+yt-dlp>=2023.10.13
+
+# Dependências opcionais para melhor compatibilidade
+# Processamento de vídeo (já incluído no yt-dlp)
+certifi>=2023.7.22
+
+# Manipulação de arquivos temporários (built-in no Python)
+# Não precisa instalar: tempfile, pathlib, os
